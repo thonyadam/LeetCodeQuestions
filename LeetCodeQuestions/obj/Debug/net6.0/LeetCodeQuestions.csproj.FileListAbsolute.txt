@@ -1,0 +1,15 @@
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.csproj.AssemblyReference.cache
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.AssemblyInfoInputs.cache
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.AssemblyInfo.cs
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.csproj.CoreCompileInputs.cache
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\bin\Debug\net6.0\LeetCodeQuestions.exe
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\bin\Debug\net6.0\LeetCodeQuestions.deps.json
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\bin\Debug\net6.0\LeetCodeQuestions.runtimeconfig.json
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\bin\Debug\net6.0\LeetCodeQuestions.dll
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\bin\Debug\net6.0\LeetCodeQuestions.pdb
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.dll
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\refint\LeetCodeQuestions.dll
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.pdb
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\LeetCodeQuestions.genruntimeconfig.cache
+C:\Anthony\Projetos\LeetCodeQuestions\LeetCodeQuestions\obj\Debug\net6.0\ref\LeetCodeQuestions.dll
