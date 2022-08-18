@@ -1,19 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-string[] words = { "gin", "zen", "gig", "msg" };
-
-int resultado = UniqueMorseRepresentations(words);
-
-
-Console.WriteLine(resultado);
-
-
-static int UniqueMorseRepresentations(string[] words)
+namespace LeetCodeQuestions
 {
-    string[] transformations = new string[words.Length];
-    int countWords = 0;
+    internal class _804___Unique_Morse_Code_Words
+    {
 
-    Dictionary<string, string> dic = new Dictionary<string, string>
+        public int UniqueMorseRepresentations(string[] words)
+        {
+            string[] transformations = new string[words.Length];
+            int countWords = 0;
+
+            Dictionary<string, string> dic = new Dictionary<string, string>
         {
             {"a", ".-"   },
             {"b", "-..." },
@@ -43,34 +44,36 @@ static int UniqueMorseRepresentations(string[] words)
             {"z", "--.." }
         };
 
-    foreach (string word in words)
-    {
-        string morseWord = "";
-
-        foreach (char c in word)
-        {
-            morseWord = morseWord + dic[c.ToString()].ToString();
-        }
-
-        bool achou = false;
-
-        foreach (string s in transformations)
-        {
-            if (s is not null && s.Equals(morseWord))
+            foreach (string word in words)
             {
-                achou = true;
+                string morseWord = "";
+
+                foreach (char c in word)
+                {
+                    morseWord = morseWord + dic[c.ToString()].ToString();
+                }
+
+                bool achou = false;
+
+                foreach (string s in transformations)
+                {
+                    if (s is not null && s.Equals(morseWord))
+                    {
+                        achou = true;
+                    }
+                }
+
+                if (!achou)
+                {
+                    transformations[countWords] = morseWord;
+                    countWords++;
+                }
+
             }
-        }
 
-        if (!achou)
-        {
-            transformations[countWords] = morseWord;
-            countWords++;
-        }
+            return countWords;
 
+
+        }
     }
-
-    return countWords;
-
-
 }
